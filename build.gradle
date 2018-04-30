@@ -34,7 +34,7 @@ apply plugin: 'application'
 /*No JAR*/
 jar.enabled = false
 
-/*JDK10 or higher*/
+/*JDK8 or higher*/
 compileJava {
 	targetCompatibility = JavaVersion.VERSION_1_8
 }
